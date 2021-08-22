@@ -5,7 +5,7 @@
   <h5></h5>
 </div>
 
-## Requisitos
+## Requisitos :clipboard:
 
 *   Conocimiento básico de JavaScript es necesario
 *   Conocimiento básico de programación es necesario
@@ -18,11 +18,11 @@
 <p>En este curso se adjuntara las ramas de cada Seccion para no mezclar todo el contenido dentro de la misma rama y se adjuntara la documentacion necesaria para poder recuperar los ejemplos independientes.</p>
 <p>Todos los proyectos seras realizados con variables de entorno y bases de datos locales.</p>
 
-## Descripcion
+## Descripcion :notebook:
 **Aprender React Actual**
 <p>Este curso tiene por objetivo llevarte de cero conocimiento de React hasta un nivel competitivo en el ambiente laboral de hoy en día. Este curso está construido 100% en Hooks y functional components.</p>
 
-## Listado de Temas del Curso:
+## Listado de Temas del Curso: 💯
     *   React a profundidad
     *   Hooks y Hooks personalizados
     *   Functional Components
@@ -54,7 +54,7 @@
     *   Redux DevTools
     *   React DevTools
 
-### Listado de Secciones:
+### Listado de Secciones: 🧟
 
 *   Seccion 02: :gear: [Introduccion React + conceptos generales ](https://github.com/jmrg-link)
 *   Seccion 03: :gear: [Introduccion Javascript Moderno](https://github.com/jmrg-link)
