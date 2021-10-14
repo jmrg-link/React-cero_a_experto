@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
 
 // FC
-const PrimeraApp = () => {
+const PrimeraApp = ( props ) => {
   const saludo = 'Hola Mundo'
+  console.log(props);
 
   return (
     <>
