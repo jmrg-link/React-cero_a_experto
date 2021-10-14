@@ -1,6 +1,5 @@
 <div align="center">
   <h1>React + Redux</h1>
-  <img src="./assets/react-logo.jpg" alt="react logo" height="300px">
   <h3 style="font-weight:bold;" >Seccion 4: Primeros pasos en React</h3>
   <h5></h5>
 </div>
