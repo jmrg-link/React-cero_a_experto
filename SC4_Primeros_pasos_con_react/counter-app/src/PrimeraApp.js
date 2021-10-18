@@ -1,17 +1,24 @@
 import React, { Fragment } from "react";
+import PropTypes from 'prop-types'
 
 // FC
-const PrimeraApp = ( props ) => {
-  const saludo = 'Hola Mundo'
-  console.log(props);
+const PrimeraApp = ( { saludo , subtitulo} ) => {
 
+  
   return (
     <>
       <h1>{ saludo }</h1>
-      <pre>{/* JSON.stringify(saludo , null , 3) */}</pre>
-      <p>Mi Primera aplicacion</p>
+      <p>{ subtitulo }</p>
     </>
   );
 };
+
+PrimeraApp.propTypes = {
+  saludo: PropTypes.string.isRequired,
+  
+}
+PrimeraApp.defaultProps = {
+  subtitulo:'Soy un parrado'
+}
 
 export default PrimeraApp;
