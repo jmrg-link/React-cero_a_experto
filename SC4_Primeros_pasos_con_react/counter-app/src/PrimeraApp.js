@@ -8,7 +8,12 @@ const PrimeraApp = ( { saludo , subtitulo} ) => {
   return (
     <>
       <h1>{ saludo }</h1>
+<<<<<<< HEAD
       <p>{ subtitulo }</p>
+=======
+     
+      <p>Mi Primera aplicacion</p>
+>>>>>>> 6f7e6dadcb56cc7ac234567f119b9ee829814af3
     </>
   );
 };
