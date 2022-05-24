@@ -1,4 +1,4 @@
-import config  from '../../config/index.mjs'
+import config  from '../../../../config/index.mjs'
 
 // const getImagenPromesa = () => new Promise( resolve => resolve('https://ajskdhaskjdhajs.com') )
 // getImagenPromesa().then( console.log );
