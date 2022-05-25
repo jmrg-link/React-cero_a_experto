@@ -1,4 +1,5 @@
 import * as dotenv from 'dotenv'
+import '@testing-library/jest-dom'
 const { pathname: root } = new URL('../../../', import.meta.url)
 dotenv.config({ path: root + '.env' })
 
