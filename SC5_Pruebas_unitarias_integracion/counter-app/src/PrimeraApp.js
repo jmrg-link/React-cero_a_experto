@@ -23,7 +23,7 @@ PrimeraApp.prototype = {
 }
 
 PrimeraApp.defaultProps = {
-    saludo: 'Hola  a todos',
+    saludo: 'Hola a todos',
     subtitle:'hola subtitulo'
 }
 
