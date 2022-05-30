@@ -1,19 +1,23 @@
 import React, { Fragment , useState  } from 'react';
-import { PropTypes } from 'prop-types'
+import { AddCategory } from './components/AddCategory';
 
-const GifExpertApp = ({
+const GifExpertApp = () => {
+    const [categories, setCategories] = useState(['One Punch','Samurai X','Dragon Ball'])
 
-}) => {
-    
     return (
-        <Fragment>
+        <>
             <h2>GifExpertApp</h2>
+            <AddCategory setCategories={setCategories}/>
             <hr></hr>
-        </Fragment>
+            <ol>
+                {
+                    categories.map(c => {
+                        return <li key={c}>{c}</li>
+                    })
+                }
+            </ol>
+        </>
     )
 }
-
-GifExpertApp.prototype = {}
-GifExpertApp.defaultProps = {}
 
 export default GifExpertApp
