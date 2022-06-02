@@ -4,9 +4,13 @@ exports[`Pruebas en <GifGridItem /> debe de mostrar el componente correctamente 
 <div
   className="card animate__animated animate__lightSpeedInRight 2s"
 >
-  <img />
+  <img
+    alt="Un titulo"
+    src="https://localhost/ejemplo.jpeg"
+  />
   <p>
      
+    Un titulo
      
   </p>
 </div>
