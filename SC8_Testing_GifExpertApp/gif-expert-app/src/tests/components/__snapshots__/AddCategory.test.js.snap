@@ -5,6 +5,7 @@ exports[`Pruebas en el componente: <AddCategory /> debe de mostrarse correctamen
   <form
     onSubmit={[Function]}
   >
+    <p />
     <input
       onChange={[Function]}
       type="text"
