@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useForm } from '../../hooks/useForm'
 import "../01-useState/counter.css";
 
 export const FormWithCustomHook = () => {
-  const { formState , handleInputChange } = useForm({
+  const { formState , handleInputChange, name , email , password } = useForm({
         name: "",
         email: "",
         password: ''
   })
 
-  const { name , password , email } = formState
+  // const { name , password , email } = formState
 
   useEffect(() => {
     return () => {
