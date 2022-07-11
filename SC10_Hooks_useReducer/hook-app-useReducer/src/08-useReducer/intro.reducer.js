@@ -1,3 +1,4 @@
+/* Creating an array with an object inside. */
 const initialState = [{
     id:1,
     todo:'Recolectar priedas del infinito',
@@ -19,11 +20,13 @@ const newTodo = {
     done:false
 }
 
+/* Creating an object with a type and a payload. */
 const addTodoAction = {
     type: '[TODO] add todo',
     payload: newTodo
 }
 
+/* Calling the reducer function and passing the state and the action. */
 todos = todoReducer(todos , addTodoAction  )
 
 console.log({state:todos});
