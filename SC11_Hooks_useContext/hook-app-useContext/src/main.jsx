@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { TodoApp } from './08-useReducer/TodoApp';
+import { MainApp } from '../src/09-useContext/MainApp'
 
+import { BrowserRouter } from 'react-router-dom'
+
+// import { TodoApp } from './08-useReducer/TodoApp';
 // import { HooksApp } from './HooksApp';
 // import { CounterApp } from './01-useState/CounterApp';
 // import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook';
@@ -20,7 +23,9 @@ import { TodoApp } from './08-useReducer/TodoApp';
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  //<React.StrictMode>
-    <TodoApp />
-  //</React.StrictMode>
-)
+  <BrowserRouter>
+    {/*<React.StrictMode>*/}
+        <MainApp />
+    {/*</React.StrictMode>*/}
+  </BrowserRouter>
+  )
