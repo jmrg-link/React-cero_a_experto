@@ -19,7 +19,7 @@ export const HeroCard = ({
     const heroImgUrl = `/assets/images/${id}.jpg`
     // const  = (<p>{characters}</p>)  
   return (
-    <div className="col">
+    <div className="col animate__animated animate__fadeIn">
         <div className="card">
             <div className="row no-gutters">
                 <div className="col-4">
@@ -38,7 +38,7 @@ export const HeroCard = ({
                         <CharactersByHero characters={ characters } alter_ego={ alter_ego }/>
 
                         <p className="card-text">
-                            <small>{ first_appearance }</small>
+                            <small className="text-muted">{ first_appearance }</small>
                         </p>
 
                         <Link to={`/hero/${ id }`}>
