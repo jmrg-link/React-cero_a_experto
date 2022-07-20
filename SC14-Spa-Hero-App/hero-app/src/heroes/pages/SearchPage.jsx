@@ -11,6 +11,9 @@ export const SearchPage = () => {
   const { q = "" } = queryString.parse(location.search);
   const heroes = getHeroByName(q);
 
+  const showSearch = ( q.length === 0 )
+  const showError  = (q.length > 0 ) && heroes.length === 0
+
   const { searchText, onInputChange } = useForm({
     searchText: q,
   });
@@ -49,11 +52,10 @@ export const SearchPage = () => {
               : ( heroes.length === 0 ) && <div className="alert alert-danger"> No se encuentra <b>{ q }</b> en la busqueda ... </div>
           }*/}
 
-
-
           <hr />
 
-          <div className="alert alert-primary" style={{opacity:0}}>Search a heroe</div>
+          <div className="alert alert-primary animate__animated animate__fadeIn" style={{display: showSearch ? '' : 'none'}}>Search a heroe</div>
+          <div className="alert alert-danger  animate__animated animate__fadeIn"  style={{display: showError  ? '' : 'none'}}> No se encuentra <b>{ q }</b> en la busqueda ... </div>
 
           {heroes.map((hero) => (
             <HeroCard key={hero.id} {...hero} />
